@@ -2,6 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    line-height: 1.5;
     background-color: #FFFFFF;
     height: auto;
     width: 100%;
@@ -34,9 +35,37 @@ main {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+h1 {
+ background-color: #A3D900;
+ opacity: 0.9;
+ color: white;
+ padding: 25px;
+ border-radius: 5px;
+ font-size: 50px;
+ font-weight: 500;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 25px
+}
+
+.button {
+    display: inline-block;
+    background-color: #A3D900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #2E4D1C;
+  }
+
 .hero {
-    height: 20vh;
-    background-image: url("images/scott-webb-102825.jpg");
+    height: 50vh;
+    background-image: url("/images/scott-webb-102825.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -48,12 +77,15 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-
+    white-space: nowrap;
   }
   .navbar-logo img {
-    max-height: 70px;
+    max-width: 60%;
+    min-width: 350px;
+    height: auto;
+  }
+  .nav-active {
+    font-weight: 600;
   }
   
   .navbar-links ul {
@@ -75,7 +107,25 @@ main {
   .navbar-toggle {
     display: none;
   }
+.container {
+    padding: 25px;
+}
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+  }
+  .left, .right {
+    flex-basis: 50%;
+  }
+
   
+  @media screen and (max-width: 991px) {
+    .header-wrap {
+        height: 100px;
+    }
+
+  }
   @media screen and (max-width: 991px) {
     .navbar-links {
       display: none;
