@@ -119,6 +119,17 @@ h2 {
     flex-basis: 50%;
   }
 
+  footer {
+    background-color: #0B1B35;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    left: 0;bottom: 0;
+    align-items: center;
+}
   /* Responsive Layout */
 
 
@@ -141,6 +152,25 @@ h2 {
       min-width: 250px;
       height: auto;
     }
+    main {
+      display: flex;
+      max-width: 1300px;
+      height: auto;
+      justify-content: left;
+      align-content: top;
+      flex-wrap: wrap;
+      margin:auto;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+  }
+
+    .footer {
+      font-size: 10px;
+
+    }
+
   }
   /* Tablet */
   @media only screen and (min-width: 481px) and (max-width: 991px) {
@@ -152,17 +182,7 @@ h2 {
   }
 }
 
-footer {
-    background-color: #0B1B35;
-    width: 100%;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: fixed;
-    left: 0;bottom: 0;
-    align-items: center;
-}
+
 
 .logo {
     width: 500px;
