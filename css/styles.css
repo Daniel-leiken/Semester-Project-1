@@ -130,8 +130,8 @@ h2 {
 }
   /* Mobile */
   @media only screen and (max-width: 480px) {
-    .body {
-      overflow: hidden;
+    body {
+      overflow-x: hidden;
     }
     .navbar-links {
       display: none;
