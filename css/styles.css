@@ -26,6 +26,11 @@ main{
 
 /*Header & Footer*/
 .header-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
     background-color: white;
     height: 120px;
     margin: 0px;
@@ -224,7 +229,7 @@ p {
   }
 
     footer {
-      font-size: 10px;
+      font-size: 12px;
     }
 
     .div-left {
