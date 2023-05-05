@@ -223,8 +223,21 @@ p {
       padding-bottom: 20px;
   }
 
-    .footer {
-      font-size: 8px;
+    footer {
+      font-size: 6px;
+    }
+
+    .div-left {
+      width: 100%;
+    }
+    .div-right{
+      width: 100%;
+      margin-left: 0px;
+    }
+    .div-right img {
+      height:auto;
+      width: 100%;
+      border-radius: 25px;
     }
 
   }
