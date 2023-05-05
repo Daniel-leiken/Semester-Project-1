@@ -81,12 +81,17 @@ p {
 .explore {
   background-image: url("/images/roberto-nickson-396152-min.jpg");
 }
-
 .exhibition-spaces {
   background-image: url("/images/exhibition-1863344_1920-min.jpg");
 }
 .special-events {
   background-image: url("/images/billetto-editorial-334686-min.jpg");
+}
+.visit {
+  background-image: url("/images/library-1132573_1920-min.jpg");
+}
+.get-involved {
+  background-image: url("/images/learn-2405206_1920-min.jpg");
 }
 
 .div-left {
