@@ -209,11 +209,19 @@ p {
     .navbar-links {
       display: none;
     }
+    .header-wrap {
+      height: 70px;
+  }
     .navbar-logo img {
       max-width: 60%;
       min-width: 300px;
       height: auto;
     }
+    .left, .right {
+      flex-basis: 100%;
+      padding: 0;
+  }
+  
     main {
       display: flex;
       max-width: 1300px;
