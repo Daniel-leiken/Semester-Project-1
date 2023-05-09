@@ -99,6 +99,53 @@ p {
 .get-involved {
   background-image: url("/images/learn-2405206_1920-min.jpg");
 }
+/* Form */
+form {
+  background-color: #FFA500;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+form h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  border: none;
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+  color: white;
+  font-weight: regular;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #A3D900;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+/* Added styles for responsive layout */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"] {
+  width: 100%;
+  box-sizing: border-box;
+}
 
 .div-left {
   flex: 1;
@@ -232,6 +279,8 @@ p {
     width: 100%
   }
   
+
+
   main {
     display: flex;
     max-width: 1300px;
