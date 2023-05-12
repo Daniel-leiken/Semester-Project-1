@@ -75,7 +75,7 @@ p {
 .hero {
     padding-top: 120px;
     height: 60vh;
-    background-image: url("/images/scott-webb-102825.jpeg");
+    background-image: url("/images/scott-webb-102825-min.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -86,7 +86,7 @@ p {
   display:flex;
 }
 .explore {
-  background-image: url("/images/roberto-nickson-396152-min.jpg");
+  background-image: url("/images/roberto-nickson-396152-min\ 2.jpg");
 }
 .exhibition-spaces {
   background-image: url("/images/exhibition-1863344_1920-min.jpg");
