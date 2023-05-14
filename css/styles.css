@@ -351,6 +351,7 @@ input[type="submit"] {
 .div-left, .div-right {
   flex-basis: 100%;
   padding: 0;
+  margin-left: 0!important;
 }
 
 .div-right img {
