@@ -231,6 +231,7 @@ input[type="submit"] {
   }
 
   footer {
+    height: 40px;
     background-color: #0B1B35;
     width: 100%;
     color: #FFFFFF;
