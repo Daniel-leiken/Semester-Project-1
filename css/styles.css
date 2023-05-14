@@ -344,6 +344,19 @@ input[type="submit"] {
     padding: 0;
 }
 
+
+.div-left {
+  width: 100%;
+}
+.div-right{
+  width: 100%;
+  margin-left: 0px;
+}
+.div-right img {
+  height:auto;
+  width: 100%;
+  border-radius: 25px;
+}
 }
 
 
